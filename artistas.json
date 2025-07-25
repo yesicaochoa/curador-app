@@ -1,81 +1,169 @@
 [
-    {
-        "nombre": "Gustav Klimt",
-        "estilo": [
-            "simbolismo",
-            "art nouveau"
-        ],
-        "colores": [
-            "oro",
-            "rojo",
-            "verde"
-        ],
-        "similares": [
-            "Egon Schiele",
-            "Alfons Mucha",
-            "Odilon Redon"
-        ]
-    },
-    {
-        "nombre": "Egon Schiele",
-        "estilo": [
-            "expresionismo"
-        ],
-        "colores": [
-            "ocre",
-            "negro",
-            "piel"
-        ],
-        "similares": [
-            "Gustav Klimt",
-            "Francis Bacon"
-        ]
-    },
-    {
-        "nombre": "Alfons Mucha",
-        "estilo": [
-            "art nouveau"
-        ],
-        "colores": [
-            "pastel",
-            "dorado"
-        ],
-        "similares": [
-            "Gustav Klimt",
-            "Beardsley"
-        ]
-    },
-    {
-        "nombre": "Odilon Redon",
-        "estilo": [
-            "simbolismo"
-        ],
-        "colores": [
-            "azul",
-            "negro",
-            "amarillo"
-        ],
-        "similares": [
-            "Klimt",
-            "William Blake",
-            "Goya"
-        ]
-    },
-    {
-        "nombre": "Hilma af Klint",
-        "estilo": [
-            "arte abstracto",
-            "espiritualismo"
-        ],
-        "colores": [
-            "rosa",
-            "azul",
-            "amarillo"
-        ],
-        "similares": [
-            "Kandinsky",
-            "Mondrian",
-            "Emma Kunz"
-        ]
-    }
-]
+  {
+    "nombre": "Leonardo da Vinci",
+    "estilo": ["renacimiento"],
+    "colores": ["ocre", "verde", "marrón"],
+    "similares": ["Miguel Ángel", "Rafael", "Sandro Botticelli"]
+  },
+  {
+    "nombre": "Miguel Ángel",
+    "estilo": ["renacimiento"],
+    "colores": ["blanco", "ocre", "gris"],
+    "similares": ["Leonardo da Vinci", "Rafael", "Caravaggio"]
+  },
+  {
+    "nombre": "Rafael",
+    "estilo": ["renacimiento"],
+    "colores": ["ocre", "verde", "azul"],
+    "similares": ["Leonardo da Vinci", "Miguel Ángel", "Sandro Botticelli"]
+  },
+  {
+    "nombre": "Sandro Botticelli",
+    "estilo": ["renacimiento"],
+    "colores": ["ocre", "azul", "blanco"],
+    "similares": ["Leonardo da Vinci", "Rafael", "Caravaggio"]
+  }
+  {
+    "nombre": "Claude Monet",
+    "estilo": ["impresionismo"],
+    "colores": ["verde", "azul", "amarillo"],
+    "similares": ["Pierre-Auguste Renoir", "Camille Pissarro", "Édouard Manet"]
+  },
+  {
+    "nombre": "Pierre-Auguste Renoir",
+    "estilo": ["impresionismo"],
+    "colores": ["rojo", "rosado", "verde"],
+    "similares": ["Claude Monet", "Camille Pissarro", "Alfred Sisley"]
+  },
+  {
+    "nombre": "Vincent van Gogh",
+    "estilo": ["postimpresionismo"],
+    "colores": ["amarillo", "azul", "verde"],
+    "similares": ["Paul Gauguin", "Georges Seurat", "Henri Toulouse-Lautrec"]
+  },
+  {
+    "nombre": "Paul Gauguin",
+    "estilo": ["postimpresionismo"],
+    "colores": ["amarillo", "rojo", "azul"],
+    "similares": ["Vincent van Gogh", "Émile Bernard", "Georges Seurat"]
+  }
+  {
+    "nombre": "Pablo Picasso",
+    "estilo": ["cubismo", "modernismo"],
+    "colores": ["azul", "gris", "negro"],
+    "similares": ["Georges Braque", "Juan Gris", "Henri Matisse"]
+  },
+  {
+    "nombre": "Henri Matisse",
+    "estilo": ["fauvismo", "modernismo"],
+    "colores": ["rojo", "amarillo", "verde"],
+    "similares": ["Pablo Picasso", "André Derain", "Maurice de Vlaminck"]
+  },
+  {
+    "nombre": "Jackson Pollock",
+    "estilo": ["expresionismo abstracto"],
+    "colores": ["negro", "blanco", "rojo"],
+    "similares": ["Mark Rothko", "Willem de Kooning"]
+  },
+  {
+    "nombre": "Mark Rothko",
+    "estilo": ["expresionismo abstracto"],
+    "colores": ["rojo", "naranja", "amarillo"],
+    "similares": ["Jackson Pollock", "Barnett Newman"]
+  }
+  {
+    "nombre": "Frida Kahlo",
+    "estilo": ["surrealismo", "realismo mágico"],
+    "colores": ["rojo", "verde", "azul"],
+    "similares": ["Remedios Varo", "Leonora Carrington", "Diego Rivera"]
+  },
+  {
+    "nombre": "Diego Rivera",
+    "estilo": ["muralismo"],
+    "colores": ["ocre", "verde", "azul"],
+    "similares": ["David Alfaro Siqueiros", "José Clemente Orozco"]
+  },
+  {
+    "nombre": "Remedios Varo",
+    "estilo": ["surrealismo"],
+    "colores": ["azul", "gris", "blanco"],
+    "similares": ["Frida Kahlo", "Leonora Carrington"]
+  },
+  {
+    "nombre": "Leonora Carrington",
+    "estilo": ["surrealismo"],
+    "colores": ["verde", "negro", "blanco"],
+    "similares": ["Frida Kahlo", "Remedios Varo"]
+  }
+  {
+    "nombre": "Xul Solar",
+    "estilo": ["vanguardia", "surrealismo"],
+    "colores": ["azul", "amarillo", "verde"],
+    "similares": ["Emilio Pettoruti", "Antonio Berni"]
+  },
+  {
+    "nombre": "Emilio Pettoruti",
+    "estilo": ["cubismo", "vanguardia"],
+    "colores": ["rojo", "azul", "gris"],
+    "similares": ["Xul Solar", "Antonio Berni"]
+  },
+  {
+    "nombre": "Antonio Berni",
+    "estilo": ["realismo social", "pop art"],
+    "colores": ["rojo", "negro", "amarillo"],
+    "similares": ["Xul Solar", "Emilio Pettoruti"]
+  },
+  {
+    "nombre": "Marta Minujín",
+    "estilo": ["arte pop", "arte conceptual"],
+    "colores": ["rosa", "amarillo", "blanco"],
+    "similares": ["León Ferrari", "Mónica Heller"]
+  }
+  {
+    "nombre": "León Ferrari",
+    "estilo": ["arte conceptual", "performance"],
+    "colores": ["negro", "rojo", "blanco"],
+    "similares": ["Marta Minujín", "Mónica Heller"]
+  },
+  {
+    "nombre": "Mónica Heller",
+    "estilo": ["arte conceptual", "performance"],
+    "colores": ["blanco", "gris", "negro"],
+    "similares": ["León Ferrari", "Marta Minujín"]
+  },
+  {
+    "nombre": "Cándido López",
+    "estilo": ["realismo", "paisajismo"],
+    "colores": ["ocre", "verde", "marrón"],
+    "similares": ["Prilidiano Pueyrredón"]
+  },
+  {
+    "nombre": "Prilidiano Pueyrredón",
+    "estilo": ["realismo", "paisajismo"],
+    "colores": ["ocre", "azul", "blanco"],
+    "similares": ["Cándido López"]
+  }
+  {
+    "nombre": "Emilio Pettoruti",
+    "estilo": ["cubismo", "vanguardia"],
+    "colores": ["rojo", "azul", "gris"],
+    "similares": ["Xul Solar", "Antonio Berni"]
+  },
+  {
+    "nombre": "Benito Quinquela Martín",
+    "estilo": ["realismo", "paisajismo"],
+    "colores": ["azul", "ocre", "gris"],
+    "similares": ["Cándido López", "Prilidiano Pueyrredón"]
+  },
+  {
+    "nombre": "Cecilia Marcovich",
+    "estilo": ["arte contemporáneo", "performance"],
+    "colores": ["negro", "blanco", "rojo"],
+    "similares": ["Mónica Heller", "León Ferrari"]
+  },
+  {
+    "nombre": "Margarita Paksa",
+    "estilo": ["arte contemporáneo", "escultura"],
+    "colores": ["gris", "blanco", "negro"],
+    "similares": ["Pablo Curatella Manes", "Norah Borges"]
+  }
