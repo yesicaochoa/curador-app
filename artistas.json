@@ -22,7 +22,7 @@
     "estilo": ["renacimiento"],
     "colores": ["ocre", "azul", "blanco"],
     "similares": ["Leonardo da Vinci", "Rafael", "Caravaggio"]
-  }
+  },
   {
     "nombre": "Claude Monet",
     "estilo": ["impresionismo"],
@@ -46,7 +46,7 @@
     "estilo": ["postimpresionismo"],
     "colores": ["amarillo", "rojo", "azul"],
     "similares": ["Vincent van Gogh", "Émile Bernard", "Georges Seurat"]
-  }
+  },
   {
     "nombre": "Pablo Picasso",
     "estilo": ["cubismo", "modernismo"],
@@ -70,7 +70,7 @@
     "estilo": ["expresionismo abstracto"],
     "colores": ["rojo", "naranja", "amarillo"],
     "similares": ["Jackson Pollock", "Barnett Newman"]
-  }
+  },
   {
     "nombre": "Frida Kahlo",
     "estilo": ["surrealismo", "realismo mágico"],
@@ -94,7 +94,7 @@
     "estilo": ["surrealismo"],
     "colores": ["verde", "negro", "blanco"],
     "similares": ["Frida Kahlo", "Remedios Varo"]
-  }
+  },
   {
     "nombre": "Xul Solar",
     "estilo": ["vanguardia", "surrealismo"],
@@ -118,7 +118,7 @@
     "estilo": ["arte pop", "arte conceptual"],
     "colores": ["rosa", "amarillo", "blanco"],
     "similares": ["León Ferrari", "Mónica Heller"]
-  }
+  },
   {
     "nombre": "León Ferrari",
     "estilo": ["arte conceptual", "performance"],
@@ -142,7 +142,7 @@
     "estilo": ["realismo", "paisajismo"],
     "colores": ["ocre", "azul", "blanco"],
     "similares": ["Cándido López"]
-  }
+  },
   {
     "nombre": "Emilio Pettoruti",
     "estilo": ["cubismo", "vanguardia"],
@@ -167,3 +167,4 @@
     "colores": ["gris", "blanco", "negro"],
     "similares": ["Pablo Curatella Manes", "Norah Borges"]
   }
+]
