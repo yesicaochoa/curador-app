@@ -1,0 +1,81 @@
+[
+    {
+        "nombre": "Gustav Klimt",
+        "estilo": [
+            "simbolismo",
+            "art nouveau"
+        ],
+        "colores": [
+            "oro",
+            "rojo",
+            "verde"
+        ],
+        "similares": [
+            "Egon Schiele",
+            "Alfons Mucha",
+            "Odilon Redon"
+        ]
+    },
+    {
+        "nombre": "Egon Schiele",
+        "estilo": [
+            "expresionismo"
+        ],
+        "colores": [
+            "ocre",
+            "negro",
+            "piel"
+        ],
+        "similares": [
+            "Gustav Klimt",
+            "Francis Bacon"
+        ]
+    },
+    {
+        "nombre": "Alfons Mucha",
+        "estilo": [
+            "art nouveau"
+        ],
+        "colores": [
+            "pastel",
+            "dorado"
+        ],
+        "similares": [
+            "Gustav Klimt",
+            "Beardsley"
+        ]
+    },
+    {
+        "nombre": "Odilon Redon",
+        "estilo": [
+            "simbolismo"
+        ],
+        "colores": [
+            "azul",
+            "negro",
+            "amarillo"
+        ],
+        "similares": [
+            "Klimt",
+            "William Blake",
+            "Goya"
+        ]
+    },
+    {
+        "nombre": "Hilma af Klint",
+        "estilo": [
+            "arte abstracto",
+            "espiritualismo"
+        ],
+        "colores": [
+            "rosa",
+            "azul",
+            "amarillo"
+        ],
+        "similares": [
+            "Kandinsky",
+            "Mondrian",
+            "Emma Kunz"
+        ]
+    }
+]
