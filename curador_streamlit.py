@@ -1,31 +1,40 @@
 import streamlit as st
+import openai
 import json
 
-st.title("🎨 Curador Personal de Arte")
+st.title("🎨 Curador Personal de Arte IA")
 
-# Cargar la base de datos
+# Cargar base de datos de artistas
 with open("artistas.json", "r", encoding="utf-8") as f:
     artistas = json.load(f)
 
-# Entrada del usuario
-nombre_usuario = st.text_input("¿Qué artista o estilo te gusta?")
+# Tu clave API OpenAI (la configuras en Streamlit Cloud o la pones acá para probar local)
+openai.api_key = st.secrets["OPENAI_API_KEY"]  # o poné tu clave directamente (no recomendado)
 
-# Buscar coincidencia en la base
-def buscar_artista(nombre):
-    nombre = nombre.lower()
-    for artista in artistas:
-        if nombre in artista["nombre"].lower():
-            return artista
-    return None
+def construir_prompt(consulta, artistas):
+    artistas_texto = ""
+    for a in artistas:
+        artistas_texto += f"{a['nombre']}: estilos {', '.join(a['estilo'])}, colores {', '.join(a['colores'])}. Similares: {', '.join(a['similares'])}.\n"
+    prompt = f"""
+Eres un curador de arte experto. Aquí tienes información de artistas:
 
-# Mostrar resultado
-if nombre_usuario:
-    resultado = buscar_artista(nombre_usuario)
-    if resultado:
-        st.subheader(f"🧠 Si te gusta {resultado['nombre']}, podrías explorar:")
-        for similar in resultado["similares"]:
-            st.write(f"• {similar}")
-        st.markdown(f"**Estilos:** {', '.join(resultado['estilo'])}")
-        st.markdown(f"**Colores frecuentes:** {', '.join(resultado['colores'])}")
-    else:
-        st.warning("No encontré ese artista. Probá con otro nombre o estilo.")
+{artistas_texto}
+
+Usuario pregunta: {consulta}
+
+Contesta recomendando artistas o estilos relacionados de forma clara y amigable.
+"""
+    return prompt
+
+consulta_usuario = st.text_input("¿Sobre qué artista o estilo querés preguntar?")
+
+if consulta_usuario:
+    prompt = construir_prompt(consulta_usuario, artistas)
+    respuesta = openai.Completion.create(
+        engine="text-davinci-003",
+        prompt=prompt,
+        max_tokens=150,
+        temperature=0.7
+    )
+    texto_respuesta = respuesta.choices[0].text.strip()
+    st.write(texto_respuesta)
